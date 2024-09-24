@@ -1,5 +1,5 @@
 package interfaces;
 
-public class CocinaInterface {
-    
+public interface CocinaInterface extends ProductoInterface {
+    boolean incluyeGas();
 }

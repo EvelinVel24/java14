@@ -1,5 +1,6 @@
 package interfaces;
 
-public class ProductoInterface {
-    
+public interface ProductoInterface {
+    void cambiarPrecio(double nuevoPrecio);
+    int cantidadDisponible();
 }
